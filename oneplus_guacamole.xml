@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="git"
-     fetch="https://github.com/"/>
-<project path="device/oneplus/guacamole" name="LineageOS/android_device_oneplus_guacamole" remote="git" />
-<project path="device/oneplus/sm8150-common" name="LineageOS/android_device_oneplus_sm8150-common" remote="git" />
-<project path="kernel/oneplus/sm8150" name="LineageOS/android_kernel_oneplus_sm8150" remote="git" />
-<project path="device/oneplus/common" name="LineageOS/android_device_oneplus_common" remote="git" />
+     <remote  name="git"
+          fetch="https://github.com/"/>
+     <project path="device/oneplus/guacamole" name="LineageOS/android_device_oneplus_guacamole" remote="git" />
+     <project path="device/oneplus/sm8150-common" name="LineageOS/android_device_oneplus_sm8150-common" remote="git" />
+     <project path="kernel/oneplus/sm8150" name="LineageOS/android_kernel_oneplus_sm8150" remote="git" />     
+     <project path="device/oneplus/common" name="LineageOS/android_device_oneplus_common" remote="git" />
+     <project path="vendor/oneplus" name="AndroidBlobs/vendor_oneplus_OnePlus7Pro" remote="git" />
 </manifest>
